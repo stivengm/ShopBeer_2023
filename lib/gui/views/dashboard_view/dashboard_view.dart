@@ -7,7 +7,7 @@ class DashboardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarGeneralWidget(titleAppbar: 'ShopBeer', fontFamily: 'Curved', fontSize: 30.0,),
+      appBar: AppBarGeneralWidget(titleAppbar: 'ShopBeer', fontFamily: 'Curved', fontSize: 30.0, actions: true,),
       body: Placeholder(),
       floatingActionButton: FloatingActionButton(
         child: Icon(
