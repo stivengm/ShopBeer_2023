@@ -1,4 +1,4 @@
-# shopbeer
+# ShopBeer
 
 A new Flutter project.
 
