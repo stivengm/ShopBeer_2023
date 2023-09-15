@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       routes: routesApp(),
-      initialRoute: 'login'
+      initialRoute: 'splash_screen'
     );
   }
 }
