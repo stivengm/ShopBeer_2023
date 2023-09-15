@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     ]);
 
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'ShopBeer',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
