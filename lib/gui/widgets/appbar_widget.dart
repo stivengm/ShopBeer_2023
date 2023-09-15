@@ -11,7 +11,6 @@ class AppBarGeneralWidget extends StatelessWidget with PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: primaryColor,
       title: Text(titleAppbar ?? '', style: Theme.of(context).textTheme.headline6!.copyWith(fontFamily: fontFamily ?? 'Gordita', fontSize: fontSize, color: whiteColor)),
       // leading: IconButton(
       //   icon: SvgPicture.asset('assets/icons/menu.svg', color: whiteColor,),
