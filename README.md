@@ -1,16 +1,27 @@
 # ShopBeer
 
-A new Flutter project.
+Este proyecto está desarrollador en Flutter con el lenguaje de programación Dart.
 
-## Getting Started
+## Requisitos
 
-This project is a starting point for a Flutter application.
+- Instalar y configurar Flutter en el computador. [Link Flutter](https://flutter.dev/docs/get-started/install)
+- Instalar y configurar Android Studio. [Link Android Studio](https://developer.android.com/studio)
 
-A few resources to get you started if this is your first Flutter project:
+> Versión de Flutter 3.7.12
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Generar Build APK
+```sh
+# Generar un Build APK
+flutter build apk
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Generar un AppBundle
+flutter build appbundle
+```
+
+### Generar Build iOS
+```sh
+# Generar un Build .plist
+flutter run --release
+```
+
+> NOTA: En este caso tiene que estar el dispositivo conectado al Mac para poder instalar la aplicación.
