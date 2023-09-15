@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:shopbeer/core/paths/app_paths.dart';
+import 'package:shopbeer/gui/app_style.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,10 @@ class MyApp extends StatelessWidget {
       title: 'ShopBeer',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: backgroundApp,
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          primary: primaryColor
+        )
       ),
       routes: routesApp(),
       initialRoute: 'login'
