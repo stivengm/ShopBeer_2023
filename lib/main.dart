@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'ShopBeer',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
