@@ -144,6 +144,9 @@ class _FormLoginState extends State<FormLogin> {
 
     // Navigator.of(context).pushNamedAndRemoveUntil('home', (route) => false);
 
+
+    Navigator.pushNamed(context, 'dashboard');
+
   }
 
   TapGestureRecognizer _registro() {
