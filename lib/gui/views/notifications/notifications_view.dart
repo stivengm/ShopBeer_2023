@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopbeer/gui/views/notifications/notifications_empy_view.dart';
+import 'package:shopbeer/gui/widgets/appbar_widget.dart';
 
 
 class NotificationsView extends StatefulWidget {
@@ -29,7 +30,7 @@ class _NotificationsViewState extends State<NotificationsView> {
     // return BlocBuilder<NotificationsBloc, NotificationsState>(
     //   builder: (context, state) {
         return Scaffold(
-          appBar: AppBar(),
+          appBar: AppBarGeneralWidget(titleAppbar: 'Notificaciones',),
           body: _body(),
           // body: state.isLoading! ? const LoadingAppWidget() : _body(),
         // );
