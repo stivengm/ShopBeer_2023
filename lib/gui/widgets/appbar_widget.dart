@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shopbeer/gui/app_style.dart';
 
-class AppBarGeneralWidget extends StatelessWidget with PreferredSizeWidget {
+class AppBarGeneralWidget extends StatelessWidget implements  PreferredSizeWidget {
   final String? titleAppbar;
   final bool? actions;
   final bool? centerTitle;
